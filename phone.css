@@ -1,0 +1,51 @@
+/* body{
+    background-color: red;
+} */
+
+/* navigation section   */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+
+/* home section  */
+ #home{
+    height: 578px;
+    padding: 3px 30px;
+}
+#home::before{
+    height: 680px;
+}
+#home p{
+    font-size: 13px;
+}
+
+
+/* services section   */
+#services{
+    flex-direction: column;  /*width kam karne pr cheeje column me a jati hain*/
+}
+
+/* client section   */
+#clients{
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+}
+
+/* contact section   */
+
+
+/* footer section  */
+
+/* utility classes */
+ .h-primary{
+     font-size:30px;
+ }   
+.btn{
+    font-size: 12px;
+    padding: 4px 8px;
+}
+
